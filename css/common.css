@@ -35,3 +35,11 @@
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-xs-12{
+    float: left;
+}
