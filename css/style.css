@@ -203,7 +203,7 @@
 }
 .ex-13-bottom-white{
     animation: bottom-left 3s ease-in-out;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bottom-left {
@@ -226,7 +226,7 @@
 }
 .ex-13-top-white{
     animation: top-right 3s ease-in-out;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 @keyframes top-right {
