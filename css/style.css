@@ -162,3 +162,42 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-bottom-white{
+    animation: move-left 2s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes move-left {
+    0%{
+        bottom: -10px;
+        right: 40%;
+    }
+    50%{
+        bottom: -10px;
+        right: 60%;
+    }
+    100%{
+        bottom: -10px;
+        right: 75%;
+    }
+}
+.ex-12-top-white{
+    animation: move-right 2s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes move-right {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    50%{
+        top: -10px;
+        left: 60%;
+    }
+    100%{
+        top: -10px;
+        left: 75%;
+    }
+}
