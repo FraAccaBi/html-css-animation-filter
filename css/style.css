@@ -81,7 +81,7 @@
     border-radius: 100%;
     transition: border-radius 2s linear 0.2s;
 }
-.ex-4-square:active{
+.ex-4-square:hover{
     filter: opacity(0);
     transition: filter 2s linear 0.2s;
 }
